@@ -7,6 +7,7 @@
 }
 
 body{
+    /* Background que sempre gera uma imagem aleatória */
     background: url('https://picsum.photos/1600/900?random=1');
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,12 +48,22 @@ section{
         text-align: center;
     }
 
-    & input[type='submit']{
+    & input[type='submit'], button{
         display: block;
         margin: 10px auto;
         font-size: 1.5em;
         padding: 0.2rem 1rem;
+
+        background-color: #000021;
+        border: none;
+        border-radius: 5px;
+        color: white;
     }
+
+    & #reload{
+        display: none;
+    }
+
 
     & h3{
         text-align: center;
