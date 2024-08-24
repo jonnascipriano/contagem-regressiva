@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem Regressiva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Contagem Regressiva</h1>
+            <p>Escolha o dia e a hora</p>
+            <br>
+            <form action="">
+                <input type="datetime-local" name="dataEsc" id="dataEsc">
+            </form>
+                <input type="submit" value="Iniciar" onclick="contagemRegressiva()">
+                <br>
+                <h3 id="res"></h3>
+                <ul id="ul">
+                    <li id="dias">Dias: </li>
+                    <li id="hor">Horas: </li>
+                    <li id="min">Minutos: </li>
+                    <li id="seg">Segundos: </li>
+                </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
